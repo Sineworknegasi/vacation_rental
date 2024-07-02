@@ -1,0 +1,38 @@
+.Hero_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("https://preview.colorlib.com/theme/vacationrental/images/bg_1.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 100vh;
+}
+.Over_lay_bg {
+    background: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.Hero_Content p {
+    font-size: 1.2rem;
+    color: var(--gray-color);
+    font-family: var(--font-family2);
+}
+.Hero_Content h1 {
+    font-family: var(--font-family1);
+    color: var(--black-color);
+}
+.Hero_book_section {
+    padding: 2rem 2rem;
+    border-radius: 15px;
+    background-color: white;
+}
+.Hero_book_section .form-control {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--pink-lite-color);
+    border-radius: 5px;
+    background: whitesmoke;
+    margin: 1rem 0;
+}

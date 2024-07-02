@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Wittgenstein:ital,wght@0,400..900;1,400..900&display=swap');
+:root {
+  --pink-color: #FC456A;
+  --pink-lite-color: #FF7E9D;
+  --black-color: #000000;
+  --gray-color: #696969;
+  --font-family1: "Wittgenstein", serif;
+  --font-family2: 'Poppins', sans-serif;
+}
+
+.pink_button {
+  background-color: var(--pink-lite-color);
+  color: white;
+  border: 1px solid var(--pink-lite-color);
+  padding: 0.7rem 1.8rem;
+  text-transform: uppercase;
+  border-radius: 5px;
+  margin: 1px 5px;
+}
+
+.pink_button:hover {
+  color: var(--pink-lite-color);
+  background: transparent;
+  border: 1px solid var(--pink-lite-color)
+}
+
+.white_button {
+  background-color: white;
+  text-transform: uppercase;
+  color: black;
+  border: 1px solid white;
+  padding: 0.7rem 1.8rem;
+  border-radius: 5px;
+  margin: 1px 5px;
+}
+
+.white_button:hover {
+  color: white;
+  background: transparent;
+  border: 1px solid white;
+}
