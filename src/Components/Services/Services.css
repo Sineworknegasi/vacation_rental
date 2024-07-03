@@ -1,0 +1,41 @@
+.Services_section {
+    margin-top: -550px;
+}
+.Hero_book_section {
+    padding: 2rem 2rem;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+.Hero_book_section .form-control {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+}
+.services_card {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1.5rem;
+    border-radius: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: white;
+}
+.Services_card_container {
+    background: transparent;
+    padding: 5rem 0rem;
+}
+.services_card .Service_title {
+    font-family: var(--font-family1);
+    font-weight: 200;
+    font-size: 1.7rem;
+    margin-top: 2rem;
+}
+.services_card .service_subtitle {
+    font-family: var(--font-family2);
+    font-weight: 400;
+    font-size: 15px;
+    color: gray;
+}

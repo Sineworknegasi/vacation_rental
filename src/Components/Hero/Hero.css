@@ -3,16 +3,18 @@
     justify-content: center;
     align-items: center;
     background: url("https://preview.colorlib.com/theme/vacationrental/images/bg_1.jpg");
-    background-attachment: fixed;
+    background-attachment:scroll;
     background-size: cover;
+    background-position: center;
     min-height: 100vh;
 }
 .Over_lay_bg {
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0.2);
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
+    height:100vh;
 }
 .Hero_Content p {
     font-size: 1.2rem;
@@ -23,16 +25,4 @@
     font-family: var(--font-family1);
     color: var(--black-color);
 }
-.Hero_book_section {
-    padding: 2rem 2rem;
-    border-radius: 15px;
-    background-color: white;
-}
-.Hero_book_section .form-control {
-    width: 100%;
-    padding: 0.5rem 1rem;
-    border: 1px solid var(--pink-lite-color);
-    border-radius: 5px;
-    background: whitesmoke;
-    margin: 1rem 0;
-}
+
