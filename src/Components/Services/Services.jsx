@@ -5,7 +5,7 @@ const Services = () => {
   return (
     <section className="Services_section container-fluid">
       <section className=" d-flex flex-column align-items-end">
-        <div className="col-md-4 Hero_book_section ">
+        <div className="col-md-4 Hero_book_section container">
           <h3>Book Your apartment</h3>
           <form>
             <div className="row ">

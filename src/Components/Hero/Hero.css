@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center;
     background: url("https://preview.colorlib.com/theme/vacationrental/images/bg_1.jpg");
-    background-attachment:scroll;
+    background-attachment:fixed;
     background-size: cover;
     background-position: center;
     min-height: 100vh;

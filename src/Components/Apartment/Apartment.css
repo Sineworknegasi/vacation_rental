@@ -1,0 +1,94 @@
+.section_Area {
+    padding: 50px  0;   
+}
+
+.left_array{
+    position: absolute;
+    top: 50%;
+    left: -15px;
+    transform: translateY(-50%);
+    content: ' ';
+    width: 12px;
+    height: 15px;
+    z-index: 1;
+    border-style: solid;
+    border-width: 12px 15px 12px 0;
+    border-color: transparent #fff transparent transparent;
+    transition: all 0.3s ease-in-out;
+}
+.apartment_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem;
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: white;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+}
+.Apartment_card_container:hover .apartment_card {
+    background-color: var(--pink-lite-color);    
+}
+.Apartment_card_container:hover p span, .Apartment_card_container:hover h2 {
+    color: white;
+}
+.Apartment_card_container:hover .left_array {
+    border-color: transparent var(--pink-lite-color) transparent transparent;
+}
+
+.Apartment_card_container:hover .Apartment_button {
+    background-color: white;
+    border: none;
+}
+
+.star_rate {
+    color: var(--yellow-color);
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    gap: 0.3rem;
+    font-family: var(--font-family1);
+}
+
+.Apartment_room {
+    padding-top: 115px;
+    padding-bottom: 70px;
+    background: var(--bg-lite-color);
+    font-family: var(--font-family1);
+    margin: 0;
+}
+.Apartment_img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.Apartment_title {
+    font-size: 2rem;
+    font-weight: 400;
+    color: var(--black-color);
+    font-family: var(--font-family1);
+}
+.Apartment_container p {
+    font-size: 0.8rem;
+    line-height: 13px;
+    color: black;
+    font-family: var(--font-family2);
+}
+.Apartment_container p span {
+    color: var(--gray-color);
+}
+.Apartment_button {
+    width: 200px;
+    padding: 0.5rem;
+    border: 1px solid rgb(203, 200, 200);
+    border-radius: 5px;
+}
