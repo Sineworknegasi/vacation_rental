@@ -12,6 +12,7 @@
     padding: 0.5rem 1rem;
     border: none;
     border-radius: 5px;
+    background-color: var(--bg-lite-color);
 }
 .services_card {
     margin-top: 40px;

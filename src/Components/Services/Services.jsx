@@ -25,6 +25,7 @@ const Services = () => {
                   name=""
                   id="Email"
                   placeholder="fsEmail"
+                  readOnly = "true"
                   className="form-control py-3 "
                 />
               </div>
