@@ -9,6 +9,17 @@
   --font-family2: 'Poppins', sans-serif;
 }
 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root{
+  background-color: var(--bg-lite-color);
+  font-family: var(--font-family2);
+}
+
 .pink_button {
   background-color: var(--pink-lite-color);
   color: white;

@@ -1,0 +1,47 @@
+.Testimonial_Section {
+    padding: 200px 0;
+    background: var(--bg-lite-color);
+}
+.Testimonial_title {
+    font-weight: 300;
+    font-family: var( --font-family1);
+}
+.Testimonial_card {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    width: 100%;
+    gap: 1rem;
+    padding: 60px 10px 20px;
+    position: relative;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+}
+
+.Testimonial_card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.Testimonial_card_body .Testi_comment {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--gray-color);
+}
+.Testimonial_card_body .Testi_title {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--pink-lite-color);
+}
+.Testimonial_card_body .Testi_job {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--gray-color);
+}
+.Quotes {
+    position: absolute;
+    top: -12%;
+    left: 10%;
+    color: var(--pink-lite-color);
+    font-size: 4rem;
+}
